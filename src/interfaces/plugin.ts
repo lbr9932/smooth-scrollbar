@@ -9,6 +9,7 @@ export interface ScrollbarPlugin {
   readonly scrollbar: Scrollbar;
   readonly options: any;
   readonly name: string;
+  //88
 
   onInit(): void;
   onDestroy(): void;
